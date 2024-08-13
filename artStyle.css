@@ -1,0 +1,245 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #f0f0f0;
+    color: #333;
+}
+/* Navigation Styling */
+nav {
+    background-color: #bdbdbd;
+    padding: 10px 0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Main Content Styling */
+main {
+
+    padding: 20px;
+    margin: 70px auto;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    border-left: 5px solid #8e8e8e;
+    padding-left: 15px;
+}
+section h2 {
+    font-size: 2em;
+    color: #616161;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8e8e8e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 5px solid #616161;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Active Link Styling */
+nav ul li a.active {
+    background-color: #616161;
+    color: white;
+}
+
+
+
+
+
+/* allPageStyle.css */
+
+body {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1, header a {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    color: #ffa500;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffa500;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+p, ul {
+    font-size: 1rem;
+    color: #555;
+}
+
+ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Specific background colors and text styling for each age group */
+#age-group-0-2 {
+    background-color: #e3f2fd; /* Light blue */
+    color: #0d47a1; /* Dark blue */
+}
+
+#age-group-2-3 {
+    background-color: #fff3e0; /* Light orange */
+    color: #e65100; /* Dark orange */
+}
+
+#age-group-3-5 {
+    background-color: #e8f5e9; /* Light green */
+    color: #1b5e20; /* Dark green */
+}
+
+#age-group-6-8 {
+    background-color: #f3e5f5; /* Light purple */
+    color: #6a1b9a; /* Dark purple */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+}
